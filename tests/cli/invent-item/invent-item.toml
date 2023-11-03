@@ -1,0 +1,3 @@
+bin.name = "eve-vulcain"
+args = "invent item \"Damage Control II\" --strict -vvv"
+status.code = 0

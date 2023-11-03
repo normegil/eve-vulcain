@@ -1,0 +1,3 @@
+bin.name = "eve-vulcain"
+args = "state -vvv"
+status.code = 0

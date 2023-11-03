@@ -1,0 +1,146 @@
+# List of IDs to loop through
+$ids = @()
+$ids += 34
+$ids += 35
+$ids += 36
+$ids += 37
+$ids += 38
+$ids += 39
+$ids += 40
+$ids += 2046
+$ids += 2048
+$ids += 2049
+$ids += 3300
+$ids += 3301
+$ids += 3302
+$ids += 3303
+$ids += 3310
+$ids += 3311
+$ids += 3312
+$ids += 3315
+$ids += 3316
+$ids += 3317
+$ids += 3318
+$ids += 3319
+$ids += 3320
+$ids += 3321
+$ids += 3327
+$ids += 3328
+$ids += 3330
+$ids += 3334
+$ids += 3340
+$ids += 3342
+$ids += 3355
+$ids += 3356
+$ids += 3357
+$ids += 3359
+$ids += 3361
+$ids += 3380
+$ids += 3385
+$ids += 3386
+$ids += 3387
+$ids += 3388
+$ids += 3392
+$ids += 3393
+$ids += 3394
+$ids += 3402
+$ids += 3403
+$ids += 3405
+$ids += 3406
+$ids += 3410
+$ids += 3411
+$ids += 3412
+$ids += 3413
+$ids += 3416
+$ids += 3417
+$ids += 3418
+$ids += 3419
+$ids += 3420
+$ids += 3423
+$ids += 3424
+$ids += 3425
+$ids += 3426
+$ids += 3427
+$ids += 3428
+$ids += 3429
+$ids += 3431
+$ids += 3432
+$ids += 3433
+$ids += 3435
+$ids += 3436
+$ids += 3437
+$ids += 3438
+$ids += 3442
+$ids += 3443
+$ids += 3446
+$ids += 3449
+$ids += 3450
+$ids += 3451
+$ids += 3452
+$ids += 3453
+$ids += 3454
+$ids += 3455
+$ids += 3551
+$ids += 3559
+$ids += 3689
+$ids += 3828
+$ids += 11395
+$ids += 11399
+$ids += 11442
+$ids += 11446
+$ids += 11453
+$ids += 11475
+$ids += 11529
+$ids += 11540
+$ids += 11542
+$ids += 11553
+$ids += 11695
+$ids += 12305
+$ids += 12365
+$ids += 13278
+$ids += 16594
+$ids += 16598
+$ids += 17940
+$ids += 20415
+$ids += 20416
+$ids += 20418
+$ids += 20419
+$ids += 21059
+$ids += 21718
+$ids += 21791
+$ids += 22578
+$ids += 23121
+$ids += 23527
+$ids += 23606
+$ids += 23618
+$ids += 23719
+$ids += 24241
+$ids += 24242
+$ids += 24268
+$ids += 24428
+$ids += 25719
+$ids += 25739
+$ids += 25811
+$ids += 25863
+$ids += 26252
+$ids += 32918
+$ids += 33092
+$ids += 33093
+$ids += 33699
+$ids += 36912
+$ids += 60377
+
+# Base URL for the API endpoint
+$baseUrl = "https://esi.evetech.net/latest/universe/types/"
+
+# Loop through each ID
+foreach ($id in $ids) {
+    # Construct the full URL
+    $url = $baseUrl + $id
+
+    # Make a GET request and save the response to a file
+    $response = Invoke-WebRequest -UseBasicParsing -Uri $url -Method Get
+    $response.Content | Out-File -Encoding UTF8 -FilePath "types/type.$id.json" -Force
+
+    Write-Host "Response for ID $id has been saved to type.$id.json"
+}

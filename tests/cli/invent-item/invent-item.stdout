@@ -1,0 +1,80 @@
+Damage Control II:
+
+	Invention facilities:
+	> Jita IV - Moon 4 - Caldari Navy Assembly Plant:
+		Costs:
+			Input Materials:
+				Datacore - Nanite Engineering:
+				                   2 *            94,504.32 ISK =           189,008.64 ISK
+				Datacore - Molecular Engineering:
+				                   2 *            96,661.27 ISK =           193,322.54 ISK
+
+			Total of Input Materials:                                                   382,331.18 ISK
+
+			Job Cost:
+				Estimated item value:                                       177,538.89 ISK
+				System cost index:                                                0.14 %
+				Facility Tax:                                                     0.25 %
+
+			Total for job installation cost:                                                 67.11 ISK
+
+			Total (for one run):                                                        382,398.29 ISK
+
+		Duration:
+			Base time:                                                             03h 50m
+			Advanced Industry skill:                     5 *        3 % =               15 %
+			Time required per run:                                             03h 15m 30s
+
+
+		Success Probabilities:
+			Base success probability:                                                0.34 %
+			Skills:
+				         Molecular Engineering                                      3
+				            Nanite Engineering                                      3
+				   Gallente Encryption Methods                                      4
+
+			Final success probability:                                               0.44 %
+
+		Total Time (Normalized):                                                   07h 22m 18s
+		Total Cost (Normalized):                                                     865,154.5 ISK
+
+	> Maurasi - BPs Center, read BIO:
+		Costs:
+			Input Materials:
+				Datacore - Nanite Engineering:
+				                   2 *            94,504.32 ISK =           189,008.64 ISK
+				Datacore - Molecular Engineering:
+				                   2 *            96,661.27 ISK =           193,322.54 ISK
+
+			Total of Input Materials:                                                   382,331.18 ISK
+
+			Job Cost:
+				Estimated item value:                                       177,538.89 ISK
+				System cost index:                                                7.74 %
+				Job cost modifier:                                                   3 %
+				Facility Tax:                                                      0.2 %
+
+			Total for job installation cost:                                                326.95 ISK
+
+			Total (for one run):                                                        382,658.13 ISK
+
+		Duration:
+			Base time:                                                             03h 50m
+			Duration modifier:                                                          15 %
+			Advanced Industry skill:                     5 *        3 % =               15 %
+			Time required per run:                                             02h 46m 10s
+
+
+		Success Probabilities:
+			Base success probability:                                                0.34 %
+			Skills:
+				         Molecular Engineering                                      3
+				            Nanite Engineering                                      3
+				   Gallente Encryption Methods                                      4
+
+			Final success probability:                                               0.44 %
+
+		Total Time (Normalized):                                                   06h 15m 56s
+		Total Cost (Normalized):                                                    865,742.37 ISK
+
+

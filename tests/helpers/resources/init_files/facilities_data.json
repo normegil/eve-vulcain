@@ -1,0 +1,32 @@
+{
+    "stations": [
+      {
+        "id": 60003760,
+        "usages": [
+          "Industry",
+          "Market"
+        ]
+      }
+    ],
+    "structures": [
+      {
+        "id": 1043367675664,
+        "usages": [
+          "Industry"
+        ],
+        "activities": {
+          "Invention": {
+            "tax_rate": 0.002,
+            "job_duration_modifier": 0.15,
+            "job_cost_modifier": 0.03
+          },
+          "Manufacturing": {
+            "tax_rate": 0.002,
+            "job_duration_modifier": 0.15,
+            "job_cost_modifier": 0.03,
+            "material_consumption_modifier": 0.01
+          }
+        }
+      }
+    ]
+  }

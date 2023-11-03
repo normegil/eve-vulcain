@@ -1,0 +1,3 @@
+bin.name = "eve-vulcain"
+args = "manufacture all --json -vvv"
+status.code = 0

@@ -1,0 +1,128 @@
+Damage Control II:
+
+	Markets:
+	                                     Average Quantity Sold (30 days)               Lowest sell price
+              Jita IV - Moon 4 - Caldari Navy Assembly Plant          10,822                   122,700 ISK/u
+
+	Invention:
+		          382,398.29 ISK *       44.2 %  /         10 =                      86,515.45 ISK/run
+
+
+	Manufacturing facilities:
+	> Jita IV - Moon 4 - Caldari Navy Assembly Plant:
+		Costs:
+			Input Materials:
+				Oscillator Capacitor Unit:
+				                   1 *            48,191.09 ISK =            48,191.09 ISK
+				Morphite:
+				                   1 *            43,482.24 ISK =            43,482.24 ISK
+				Mechanical Parts:
+				                   5 *            12,060.16 ISK =             60,300.8 ISK
+				Plasma Pulse Generator:
+				                   1 *            19,833.91 ISK =            19,833.91 ISK
+				R.A.M.- Armor/Hull Tech:
+				                   1 *             1,060.36 ISK =             1,060.36 ISK
+				Construction Blocks:
+				                   3 *            12,334.49 ISK =            37,003.47 ISK
+				Fernite Carbide Composite Armor Plate:
+				                   1 *             9,372.52 ISK =             9,372.52 ISK
+				Quantum Microprocessor:
+				                   1 *            65,805.53 ISK =            65,805.53 ISK
+				Damage Control I:
+				                   1 *             8,207.74 ISK =             8,207.74 ISK
+
+			Total of Input Materials:                                                   293,257.66 ISK
+
+			Job Cost:
+				Estimated item value:                                       177,538.89 ISK
+				System cost index:                                               20.88 %
+				Facility Tax:                                                     0.25 %
+
+			Total for job installation cost:                                             37,780.28 ISK
+
+			Total (for one run):                                                        417,553.39 ISK
+			Total (per unit):                                                           417,553.39 ISK/u
+
+		Duration:
+			Base time:                                                                 39m
+			Industry skill:                              5 *        4 % =               20 %
+			Advanced Industry skill:                     5 *        3 % =               15 %
+			Time required per run:                                                 25m 27s
+
+			Number of runs (Per Hour):                                                2.36
+			Number of runs (Per Days):                                               56.58
+
+
+		Volumes: 
+			Per Unit:                                                                     5 m3/u
+			Per Run:                                                                      5 m3
+			Per Hour:                                                                 11.79 m3/h
+			Per Day:                                                                 282.91 m3/d
+
+
+		Profits:
+			  Jita IV - Moon 4 - Caldari Navy Assembly Plant                   -695,135.68 ISK/h
+                                                                                        -16,683,256.39 ISK/d
+
+
+
+	> Maurasi - BPs Center, read BIO:
+		Costs:
+			Input Materials:
+				Oscillator Capacitor Unit:
+				                   1 *            48,191.09 ISK =            48,191.09 ISK
+				Morphite:
+				                   1 *            43,482.24 ISK =            43,482.24 ISK
+				Mechanical Parts:
+				                   5 *            12,060.16 ISK =             60,300.8 ISK
+				Plasma Pulse Generator:
+				                   1 *            19,833.91 ISK =            19,833.91 ISK
+				R.A.M.- Armor/Hull Tech:
+				                   1 *             1,060.36 ISK =             1,060.36 ISK
+				Construction Blocks:
+				                   3 *            12,334.49 ISK =            37,003.47 ISK
+				Fernite Carbide Composite Armor Plate:
+				                   1 *             9,372.52 ISK =             9,372.52 ISK
+				Quantum Microprocessor:
+				                   1 *            65,805.53 ISK =            65,805.53 ISK
+				Damage Control I:
+				                   1 *             8,207.74 ISK =             8,207.74 ISK
+
+			Total of Input Materials:                                                   293,257.66 ISK
+
+			Job Cost:
+				Estimated item value:                                       177,538.89 ISK
+				System cost index:                                                7.51 %
+				Job cost modifier:                                                   3 %
+				Facility Tax:                                                      0.2 %
+
+			Total for job installation cost:                                             13,554.56 ISK
+
+			Total (for one run):                                                        393,327.67 ISK
+			Total (per unit):                                                           393,327.67 ISK/u
+
+		Duration:
+			Base time:                                                                 39m
+			Duration modifier:                                                          15 %
+			Industry skill:                              5 *        4 % =               20 %
+			Advanced Industry skill:                     5 *        3 % =               15 %
+			Time required per run:                                                 21m 38s
+
+			Number of runs (Per Hour):                                                2.77
+			Number of runs (Per Days):                                               66.56
+
+
+		Volumes: 
+			Per Unit:                                                                     5 m3/u
+			Per Run:                                                                      5 m3
+			Per Hour:                                                                 13.87 m3/h
+			Per Day:                                                                 332.82 m3/d
+
+
+		Profits:
+			  Jita IV - Moon 4 - Caldari Navy Assembly Plant                   -750,585.22 ISK/h
+                                                                                        -18,014,045.32 ISK/d
+
+
+
+

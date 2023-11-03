@@ -3,6 +3,44 @@ name = "eve-vulcain"
 version = "0.1.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+path = "src/main.rs"
+name = "eve-vulcain"
 
 [dependencies]
+anyhow = { version = "1.0.75" }
+clap = { version = "4.4.7", features = ["derive"] }
+colored = "2.0.4"
+dirs = "5.0.1"
+open = "5.0.0"
+regex = "1.10.2"
+reqwest = { version = "0.11.22", features = ["blocking", "stream"] }
+rfesi = { git = "https://github.com/normegil/rfesi" }
+rustls = "0.21.8"
+serde = "1.0.192"
+serde_json = "1.0.108"
+thiserror = "1.0.50"
+tokio = { version = "1.33.0", features = ["full"] }
+url = "2.4.1"
+log = "0.4.20"
+jsonwebtoken = "9.1.0"
+toml = "0.8.8"
+indicatif = "0.17.7"
+futures-util = "0.3.29"
+zip = "0.6.6"
+serde_yaml = "0.9.27"
+thousands = "0.2.0"
+inquire = "0.6.2"
+strum = { version = "0.25.0", features = ["derive", "strum_macros"] }
+strum_macros = "0.25.3"
+chrono = "0.4.31"
+async-trait = "0.1.77"
+async-recursion = "1.0.5"
+
+[dev-dependencies]
+tempfile = "3.9.0"
+trycmd = "0.14.20"
+wiremock = "0.5.22"

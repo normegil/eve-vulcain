@@ -1,0 +1,3 @@
+bin.name = "eve-vulcain"
+args = "logout -vvv"
+status.code = 0

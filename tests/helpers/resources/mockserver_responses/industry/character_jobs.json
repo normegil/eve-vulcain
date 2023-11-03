@@ -1,0 +1,22 @@
+[
+    {
+        "activity_id": 1,
+        "blueprint_id": 1036497897986,
+        "blueprint_location_id": 1043367675664,
+        "blueprint_type_id": 23528,
+        "cost": 1144394.0,
+        "duration": 71663,
+        "end_date": "2024-02-03T03:59:45Z",
+        "facility_id": 1043367675664,
+        "installer_id": 2120554382,
+        "job_id": 546548940,
+        "licensed_runs": 60,
+        "output_location_id": 1043367675664,
+        "probability": 1.0,
+        "product_type_id": 23527,
+        "runs": 56,
+        "start_date": "2024-02-02T08:05:22Z",
+        "station_id": 1043367675664,
+        "status": "active"
+    }
+]

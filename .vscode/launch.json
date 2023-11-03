@@ -1,0 +1,84 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'eve-vulcain'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=eve-vulcain",
+                    "--package=eve-vulcain"
+                ],
+                "filter": {
+                    "name": "eve-vulcain",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'eve-vulcain'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=eve-vulcain",
+                    "--package=eve-vulcain"
+                ],
+                "filter": {
+                    "name": "eve-vulcain",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'cli_logout'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=cli_logout",
+                    "--package=eve-vulcain"
+                ],
+                "filter": {
+                    "name": "http",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Eve-vulcain state",
+            "cargo": {
+                "args": [
+                    "run",
+                    "--bin=eve-vulcain",
+                    "--package=eve-vulcain",
+                    "--",
+                    "state"
+                ],
+                "filter": {
+                    "name": "eve-vulcain",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+    ]
+}

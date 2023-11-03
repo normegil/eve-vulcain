@@ -1,0 +1,18 @@
+[
+    {
+        "duration": 14,
+        "escrow": 20.0,
+        "is_buy_order": true,
+        "is_corporation": false,
+        "issued": "2024-02-02T12:31:56Z",
+        "location_id": 60003760,
+        "min_volume": 1,
+        "order_id": 6706127501,
+        "price": 20.0,
+        "range": "station",
+        "region_id": 10000002,
+        "type_id": 36912,
+        "volume_remain": 1,
+        "volume_total": 1
+    }
+]

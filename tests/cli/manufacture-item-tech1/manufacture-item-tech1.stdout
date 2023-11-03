@@ -1,0 +1,118 @@
+Drone Link Augmentor I:
+
+	Markets:
+	                                     Average Quantity Sold (30 days)               Lowest sell price
+              Jita IV - Moon 4 - Caldari Navy Assembly Plant           1,331                   185,000 ISK/u
+
+
+
+	Manufacturing facilities:
+	> Jita IV - Moon 4 - Caldari Navy Assembly Plant:
+		Costs:
+			Input Materials:
+				Tritanium:
+				               5,556 *                 4.12 ISK =            22,890.72 ISK
+				Pyerite:
+				               2,222 *                   10 ISK =               22,220 ISK
+				Mexallon:
+				                  61 *                54.07 ISK =             3,298.27 ISK
+				Isogen:
+				                   2 *               458.35 ISK =                916.7 ISK
+				Nocxium:
+				                   2 *             1,191.13 ISK =             2,382.26 ISK
+				Zydrine:
+				                 112 *             1,845.41 ISK =           206,685.92 ISK
+				Megacyte:
+				                  22 *             5,932.53 ISK =           130,515.66 ISK
+
+			Total of Input Materials:                                                   388,909.53 ISK
+
+			Job Cost:
+				Estimated item value:                                       177,913.03 ISK
+				System cost index:                                               20.88 %
+				Facility Tax:                                                     0.25 %
+
+			Total for job installation cost:                                             37,859.89 ISK
+
+			Total (for one run):                                                        426,769.42 ISK
+			Total (per unit):                                                           426,769.42 ISK/u
+
+		Duration:
+			Base time:                                                                 45m
+			Industry skill:                              5 *        4 % =               20 %
+			Advanced Industry skill:                     5 *        3 % =               15 %
+			Time required per run:                                                 30m 36s
+
+			Number of runs (Per Hour):                                                1.96
+			Number of runs (Per Days):                                               47.06
+
+
+		Volumes: 
+			Per Unit:                                                                    25 m3/u
+			Per Run:                                                                     25 m3
+			Per Hour:                                                                 49.02 m3/h
+			Per Day:                                                               1,176.47 m3/d
+
+
+		Profits:
+			  Jita IV - Moon 4 - Caldari Navy Assembly Plant                   -474,057.69 ISK/h
+                                                                                        -11,377,384.63 ISK/d
+
+
+
+	> Maurasi - BPs Center, read BIO:
+		Costs:
+			Input Materials:
+				Tritanium:
+				               5,500 *                 4.12 ISK =               22,660 ISK
+				Pyerite:
+				               2,200 *                   10 ISK =               22,000 ISK
+				Mexallon:
+				                  60 *                54.07 ISK =              3,244.2 ISK
+				Isogen:
+				                   2 *               458.35 ISK =                916.7 ISK
+				Nocxium:
+				                   2 *             1,191.13 ISK =             2,382.26 ISK
+				Zydrine:
+				                 111 *             1,845.41 ISK =           204,840.51 ISK
+				Megacyte:
+				                  22 *             5,932.53 ISK =           130,515.66 ISK
+
+			Total of Input Materials:                                                   386,559.33 ISK
+
+			Job Cost:
+				Estimated item value:                                       177,913.03 ISK
+				System cost index:                                                7.51 %
+				Job cost modifier:                                                   3 %
+				Facility Tax:                                                      0.2 %
+
+			Total for job installation cost:                                             13,583.13 ISK
+
+			Total (for one run):                                                        400,142.46 ISK
+			Total (per unit):                                                           400,142.46 ISK/u
+
+		Duration:
+			Base time:                                                                 45m
+			Duration modifier:                                                          15 %
+			Industry skill:                              5 *        4 % =               20 %
+			Advanced Industry skill:                     5 *        3 % =               15 %
+			Time required per run:                                                     26m
+
+			Number of runs (Per Hour):                                                2.31
+			Number of runs (Per Days):                                               55.38
+
+
+		Volumes: 
+			Per Unit:                                                                    25 m3/u
+			Per Run:                                                                     25 m3
+			Per Hour:                                                                 57.69 m3/h
+			Per Day:                                                               1,384.62 m3/d
+
+
+		Profits:
+			  Jita IV - Moon 4 - Caldari Navy Assembly Plant                   -496,482.59 ISK/h
+                                                                                         -11,915,582.2 ISK/d
+
+
+
+
