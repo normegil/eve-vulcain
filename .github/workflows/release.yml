@@ -42,7 +42,7 @@ jobs:
       uses: Shopify/upload-to-release@v2.0.0
       with:
         name: eve-vulcain.windows.x86_64.exe
-        path: target/release/eve-vulcain
+        path: target/release/eve-vulcain.exe
         repo-token: ${{ secrets.GITHUB_TOKEN }}
     
 
