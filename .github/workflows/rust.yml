@@ -1,4 +1,4 @@
-name: Rust
+name: Check
 
 on:
   push:
@@ -28,42 +28,3 @@ jobs:
       run: cargo test --verbose
     - name: Verify formatting
       run: cargo fmt --check
-
-  release-linux:
-    runs-on: ubuntu-latest
-    needs: check
-    if: github.event_name == 'release'
-
-    steps:
-    - name: Install latest nightly
-      uses: dtolnay/rust-toolchain@stable
-      with:
-        toolchain: nightly
-    - name: Build binary
-      run: cargo build --release
-    - name: Upload to Release
-      uses: Shopify/upload-to-release@v2.0.0
-      with:
-        name: eve-vulcain.linux.x86_64 
-        path: target/release/eve-vulcain 
-        repo-token: ${{ secrets.GITHUB_TOKEN }} 
-  
-  release-windows:
-    runs-on: windows-latest
-    needs: check
-    if: github.event_name == 'release'
-
-    steps:
-    - name: Install latest nightly
-      uses: dtolnay/rust-toolchain@stable
-      with:
-        toolchain: nightly
-    - name: Build binary
-      run: cargo build --release
-    - name: Upload to Release
-      uses: Shopify/upload-to-release@v2.0.0
-      with:
-        name: eve-vulcain.windows.x86_64.exe
-        path: target/release/eve-vulcain
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-    
