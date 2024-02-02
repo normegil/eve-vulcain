@@ -1,15 +1,25 @@
 name: Release
 
 on:
-  release:
-    types: [created, published]
+  push:
+    tags:
+      - '*'
 
 env:
   CARGO_TERM_COLOR: always
 
 jobs:
-  release-linux:
-    runs-on: ubuntu-latest
+  release:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        include:
+          - os: ubuntu-latest
+            artifact_name: eve-vulcain
+            asset_name: eve-vulcain-linux-x86_64
+          - os: windows-latest
+            artifact_name: eve-vulcain.exe
+            asset_name: eve-vulcain-windows-x86_64
   
     steps:
     - uses: actions/checkout@v3
@@ -19,30 +29,10 @@ jobs:
         toolchain: nightly
     - name: Build binary
       run: cargo build --release
-    - name: Upload to Release
-      uses: Shopify/upload-to-release@v2.0.0
+    - name: Upload binaries to release
+      uses: svenstaro/upload-release-action@v2
       with:
-        name: eve-vulcain.linux.x86_64 
-        path: target/release/eve-vulcain 
-        repo-token: ${{ secrets.GITHUB_TOKEN }} 
-  
-  release-windows:
-    runs-on: windows-latest
-    if: github.event_name == 'release'
-
-    steps:
-    - uses: actions/checkout@v3
-    - name: Install latest nightly
-      uses: dtolnay/rust-toolchain@stable
-      with:
-        toolchain: nightly
-    - name: Build binary
-      run: cargo build --release
-    - name: Upload to Release
-      uses: Shopify/upload-to-release@v2.0.0
-      with:
-        name: eve-vulcain.windows.x86_64.exe
-        path: target/release/eve-vulcain.exe
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-    
-
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: target/release/${{ matrix.artifact_name }}
+        asset_name: ${{ matrix.asset_name }}
+        tag: ${{ github.ref }}
