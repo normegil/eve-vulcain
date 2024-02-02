@@ -3,6 +3,7 @@
 #![feature(fs_try_exists)]
 #![feature(async_closure)]
 #![feature(trait_alias)]
+#![feature(trait_upcasting)]
 
 use std::path::PathBuf;
 use std::process;
