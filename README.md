@@ -1,12 +1,7 @@
 # Eve Vulcain
-Eve Vulcain will help you to compute and plan industry activities in Eve Online. Based on preregistered industrial facilities and markets, as well as a preregistered list of items, it help you compare the profits you can make on different items.
+Eve Vulcain will help you to compute and plan industrial activities in Eve Online. Based on preregistered facilities,  markets, and items, it help you compare profits and select the best item to manufacture.
 
-_Manufacture specific item_
-![ManufactureItemExample-Part1](documentation/pictures/readme/ManufactureQuantumMicroprocessor-1.jpg)
-![ManufactureItemExample-Part2](documentation/pictures/readme/ManufactureQuantumMicroprocessor-2.jpg)
-
-_Manufacture all registered items_
-![ManufactureAllExample](documentation/pictures/readme/ManufactureAll.jpg)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8sqbowlHCbQ?si=9qj98vmDfg8-ZtS_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Setup
 
